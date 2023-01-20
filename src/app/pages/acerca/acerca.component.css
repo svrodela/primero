@@ -1,0 +1,31 @@
+h4 {
+    color: #008bc6 !important;
+}
+
+.users-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 4em 0;
+}
+
+.user {
+    display: flex;
+    margin: 1em;
+}
+
+.user p {
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user div {
+    margin-right: 1em;
+}
+
+.user h4 {
+    margin: 0;
+    font-family: "Shadows Into Light", cursive;
+}
