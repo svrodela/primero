@@ -7,9 +7,11 @@ import { AcercaComponent } from './pages/acerca/acerca.component';
 import { IngresarComponent } from './pages/ingresar/ingresar.component';
 import { PaginanoencontradaComponent } from './pages/paginanoencontrada/paginanoencontrada.component';
 import { HomeComponent } from './pages/home/home.component';
+import { NoticiasComponent } from './pages/noticias/noticias.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
+  { path: 'noticias', component: NoticiasComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'login', component: LoginComponent },
   { path: 'acerca', component: AcercaComponent },
